@@ -1,0 +1,891 @@
+14:42:35.725 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:42:35.742 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 7 - ^get all users and then get the first user by id$
+14:42:35.928 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+14:42:36.610 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: jsonplaceholder.typicode.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:42:37.166 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 522,67
+1 < 200
+1 < Access-Control-Allow-Credentials: true
+1 < Age: 25100
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d23aa70fba4f710-GRU
+1 < Cache-Control: max-age=43200
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sun, 13 Sep 2020 17:42:36 GMT
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Expires: -1
+1 < Pragma: no-cache
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8fea4fd86d8a31f9b104daaed35b7ef11600018956; expires=Tue, 13-Oct-20 17:42:36 GMT; path=/; domain=.typicode.com; HttpOnly; SameSite=Lax
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1598841974
+1 < cf-request-id: 052a28da9c0000f710c1a01200000001
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "username": "Bret",
+    "email": "Sincere@april.biz",
+    "address": {
+      "street": "Kulas Light",
+      "suite": "Apt. 556",
+      "city": "Gwenborough",
+      "zipcode": "92998-3874",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "1-770-736-8031 x56442",
+    "website": "hildegard.org",
+    "company": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+      "street": "Victor Plains",
+      "suite": "Suite 879",
+      "city": "Wisokyburgh",
+      "zipcode": "90566-7771",
+      "geo": {
+        "lat": "-43.9509",
+        "lng": "-34.4618"
+      }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+      "name": "Deckow-Crist",
+      "catchPhrase": "Proactive didactic contingency",
+      "bs": "synergize scalable supply-chains"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+      "street": "Douglas Extension",
+      "suite": "Suite 847",
+      "city": "McKenziehaven",
+      "zipcode": "59590-4157",
+      "geo": {
+        "lat": "-68.6102",
+        "lng": "-47.0653"
+      }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "username": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "address": {
+      "street": "Hoeger Mall",
+      "suite": "Apt. 692",
+      "city": "South Elvis",
+      "zipcode": "53919-4257",
+      "geo": {
+        "lat": "29.4572",
+        "lng": "-164.2990"
+      }
+    },
+    "phone": "493-170-9623 x156",
+    "website": "kale.biz",
+    "company": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+      "street": "Skiles Walks",
+      "suite": "Suite 351",
+      "city": "Roscoeview",
+      "zipcode": "33263",
+      "geo": {
+        "lat": "-31.8129",
+        "lng": "62.5342"
+      }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "username": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "address": {
+      "street": "Norberto Crossing",
+      "suite": "Apt. 950",
+      "city": "South Christy",
+      "zipcode": "23505-1337",
+      "geo": {
+        "lat": "-71.4197",
+        "lng": "71.7478"
+      }
+    },
+    "phone": "1-477-935-8478 x6430",
+    "website": "ola.org",
+    "company": {
+      "name": "Considine-Lockman",
+      "catchPhrase": "Synchronised bottom-line interface",
+      "bs": "e-enable innovative applications"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "username": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "address": {
+      "street": "Rex Trail",
+      "suite": "Suite 280",
+      "city": "Howemouth",
+      "zipcode": "58804-1099",
+      "geo": {
+        "lat": "24.8918",
+        "lng": "21.8984"
+      }
+    },
+    "phone": "210.067.6132",
+    "website": "elvis.io",
+    "company": {
+      "name": "Johns Group",
+      "catchPhrase": "Configurable multimedia task-force",
+      "bs": "generate enterprise e-tailers"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "username": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "address": {
+      "street": "Ellsworth Summit",
+      "suite": "Suite 729",
+      "city": "Aliyaview",
+      "zipcode": "45169",
+      "geo": {
+        "lat": "-14.3990",
+        "lng": "-120.7677"
+      }
+    },
+    "phone": "586.493.6943 x140",
+    "website": "jacynthe.com",
+    "company": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "username": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "address": {
+      "street": "Dayna Park",
+      "suite": "Suite 449",
+      "city": "Bartholomebury",
+      "zipcode": "76495-3109",
+      "geo": {
+        "lat": "24.6463",
+        "lng": "-168.8889"
+      }
+    },
+    "phone": "(775)976-6794 x41206",
+    "website": "conrad.com",
+    "company": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "username": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "address": {
+      "street": "Kattie Turnpike",
+      "suite": "Suite 198",
+      "city": "Lebsackbury",
+      "zipcode": "31428-2261",
+      "geo": {
+        "lat": "-38.2386",
+        "lng": "57.2232"
+      }
+    },
+    "phone": "024-648-3804",
+    "website": "ambrose.net",
+    "company": {
+      "name": "Hoeger LLC",
+      "catchPhrase": "Centralized empowering task-force",
+      "bs": "target end-to-end models"
+    }
+  }
+]
+
+14:42:37.195 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Cookie: __cfduid=d8fea4fd86d8a31f9b104daaed35b7ef11600018956
+2 > Host: jsonplaceholder.typicode.com
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+
+14:42:37.357 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 160,72
+2 < 200
+2 < Access-Control-Allow-Credentials: true
+2 < Age: 22786
+2 < CF-Cache-Status: HIT
+2 < CF-RAY: 5d23aa727e9ef70c-GRU
+2 < Cache-Control: max-age=43200
+2 < Connection: keep-alive
+2 < Content-Type: application/json; charset=utf-8
+2 < Date: Sun, 13 Sep 2020 17:42:37 GMT
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Expires: -1
+2 < Pragma: no-cache
+2 < Server: cloudflare
+2 < Transfer-Encoding: chunked
+2 < Vary: Origin, Accept-Encoding
+2 < Via: 1.1 vegur
+2 < X-Content-Type-Options: nosniff
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1598841974
+2 < cf-request-id: 052a28db8a0000f70c690f8200000001
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}
+
+14:42:37.758 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/users.feature
+20:15:37.850 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:15:37.875 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 6 - ^create bucket$
+20:15:38.243 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:15:38.356 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: request body is required for a POST, please use the 'request' keyword
+20:15:38.704 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:21:14.965 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:21:14.981 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create bucket$
+20:21:15.257 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:21:15.727 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:22:31.883 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:22:31.898 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create bucket$
+20:22:32.193 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:22:32.423 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:23:40.384 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:23:40.399 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create bucket$
+20:23:40.665 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:23:43.436 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://loocalhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: loocalhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:23:45.806 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - java.net.UnknownHostException: Este host não é conhecido (loocalhost), http call failed after 2369 milliseconds for URL: https://loocalhost:8080/v1/buckets
+20:23:45.807 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+java.net.UnknownHostException: Este host não é conhecido (loocalhost)
+20:23:45.891 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:26:35.377 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:27:18.193 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:27:41.318 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:28:17.800 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:28:17.814 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:28:18.014 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:28:18.887 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:28:23.020 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4133 milliseconds for URL: http://localhost:8080/v1/buckets
+20:28:23.020 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+20:28:23.122 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:28:46.154 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:28:46.166 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:28:46.470 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:28:47.718 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:28:51.827 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4109 milliseconds for URL: http://localhost:8080/v1/buckets
+20:28:51.828 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+20:28:51.961 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:29:19.763 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:29:19.781 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:29:20.052 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:29:20.952 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:29:21.946 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 990,78
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:29:21 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:29:21.801+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:29:21.947 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 991, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:29:21.801+00:00","status":400}
+20:29:22.028 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:31:54.303 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:31:54.318 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:31:54.531 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:31:55.589 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:31:55.644 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 53,45
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:31:55 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:31:55.636+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:31:55.645 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 53, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:31:55.636+00:00","status":400}
+20:31:55.743 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:32:53.269 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:32:53.282 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:32:53.486 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:32:54.427 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":2,"name":"TODO"}
+
+20:32:54.453 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 23,95
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:32:54 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:32:54.446+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:32:54.454 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 24, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:32:54.446+00:00","status":400}
+20:32:54.536 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:34:00.193 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:34:00.207 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:34:00.398 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:34:01.665 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":2,"name":"TODO"}
+
+20:34:01.832 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 165,06
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:34:01 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:34:01.785+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:34:01.833 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 165, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-09-24T23:34:01.785+00:00","status":500}
+20:34:01.922 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:36:28.102 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:36:28.114 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:36:28.380 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:36:29.361 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":2,"name":"TODO"}
+
+20:36:29.398 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 34,84
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:36:29 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:36:29.390+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:36:29.400 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 35, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-09-24T23:36:29.390+00:00","status":500}
+20:36:29.479 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:38:47.061 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:38:47.077 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:38:47.309 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:38:48.271 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":2,"name":"TODO"}
+
+20:38:48.479 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 204,13
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:38:48 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:38:48.431+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:38:48.481 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 204, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:38:48.431+00:00","status":400}
+20:38:48.567 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:39:44.312 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:39:44.327 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:39:44.564 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:39:45.562 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":2,"name":"TODO"}
+
+20:39:46.428 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 864,22
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:39:46 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:39:46.376+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:39:46.429 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 864, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-09-24T23:39:46.376+00:00","status":500}
+20:39:46.522 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:41:05.195 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:41:05.215 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:41:05.448 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:41:06.402 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":0,"name":"TODO"}
+
+20:41:06.563 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 159,03
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:41:06 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:41:06.514+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:41:06.564 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 159, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:41:06.514+00:00","status":400}
+20:41:06.645 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:43:23.034 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:43:23.049 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:43:23.293 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:43:24.241 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:43:24.588 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 345,27
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:43:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:43:24.520+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:43:24.591 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 345, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-09-24T23:43:24.520+00:00","status":500}
+20:43:24.680 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:44:09.873 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:44:09.890 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:44:10.127 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:44:11.100 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:44:11.489 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 385,91
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:44:11 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:44:11.415+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:44:11.490 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 386, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-09-24T23:44:11.415+00:00","status":500}
+20:44:11.590 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:45:07.159 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:45:07.175 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:45:07.400 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:45:08.668 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:45:08.880 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 210,45
+1 < 400
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 24 Sep 2020 23:45:08 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-09-24T23:45:08.814+00:00","status":400,"error":"Bad Request","message":"","path":"/v1/buckets"}
+
+20:45:08.882 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 400, expected: 204, response time: 210, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Bad Request","message":"","timestamp":"2020-09-24T23:45:08.814+00:00","status":400}
+20:45:08.999 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+16:35:23.802 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:35:23.829 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+16:35:24.079 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:35:25.692 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+16:35:26.605 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 885,63
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 04 Oct 2020 19:35:26 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-10-04T19:35:26.477+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+16:35:26.606 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 204, response time: 886, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-10-04T19:35:26.477+00:00","status":500}
+16:35:27.279 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+16:35:44.110 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:35:44.127 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+16:35:44.306 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:35:45.163 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+16:35:45.196 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 30,56
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 04 Oct 2020 19:35:45 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-10-04T19:35:45.188+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+16:35:45.197 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 201, response time: 31, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-10-04T19:35:45.188+00:00","status":500}
+16:35:45.275 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+16:39:39.473 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:39:39.485 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+16:39:39.684 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:39:40.582 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+16:39:41.096 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 511,40
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 04 Oct 2020 19:39:41 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-10-04T19:39:41.069+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+16:39:41.097 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 201, response time: 511, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-10-04T19:39:41.069+00:00","status":500}
+16:39:41.189 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+16:42:28.454 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:42:28.466 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+16:42:28.674 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:42:29.643 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+16:42:29.967 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 321,93
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 19:42:29 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+16:42:30.050 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+16:43:48.631 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:43:48.644 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+16:43:48.824 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+16:43:49.651 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+16:43:49.849 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 192,43
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 19:43:49 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+16:43:49.983 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+19:21:59.998 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+19:22:00.027 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+19:22:00.568 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+19:22:03.580 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+19:22:04.033 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 425,76
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 22:22:03 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+19:22:04.486 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+19:24:22.710 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+19:24:22.736 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+19:24:23.108 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+19:24:25.153 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+19:24:26.139 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 981,37
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 22:24:26 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+19:24:26.313 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:13:30.003 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:13:30.040 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:13:30.550 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:13:35.148 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:13:36.658 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1355,38
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 23:13:36 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+20:13:37.195 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:16:18.929 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:16:18.942 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:16:19.146 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:16:20.066 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:16:20.671 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 601,57
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 23:16:20 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+20:16:20.762 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:38:48.169 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:38:48.185 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:38:48.575 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:38:49.624 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:38:50.657 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1017,08
+1 < 201
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sun, 04 Oct 2020 23:38:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Location: 
+
+20:38:52.670 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/users/bucket.feature
+20:39:22.606 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+20:39:22.625 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 3 - ^create Bucket$
+20:39:22.953 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+20:39:23.946 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:8080/v1/buckets
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 72
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:8080
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.7)
+{"id":"0d361548-f415-4fba-9490-79f7f3256cec","position":1,"name":"TODO"}
+
+20:39:24.360 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 411,98
+1 < 500
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Sun, 04 Oct 2020 23:39:24 GMT
+1 < Transfer-Encoding: chunked
+{"timestamp":"2020-10-04T23:39:24.316+00:00","status":500,"error":"Internal Server Error","message":"","path":"/v1/buckets"}
+
+20:39:24.361 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 500, expected: 201, response time: 412, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-10-04T23:39:24.316+00:00","status":500}
+20:39:24.455 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/users/bucket.feature

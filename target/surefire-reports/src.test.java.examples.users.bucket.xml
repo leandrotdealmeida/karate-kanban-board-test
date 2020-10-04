@@ -1,0 +1,14 @@
+<testsuite failures="1" name="src/test/java/examples/users/bucket.feature" skipped="0" tests="1" time="1.338395">
+  <testcase classname="src.test.java.examples.users.bucket" name="create Bucket" time="1.338395">
+    <failure message="bucket.feature:16 - status code was: 500, expected: 201, response time: 412, url: http://localhost:8080/v1/buckets, response: {&quot;path&quot;:&quot;/v1/buckets&quot;,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;message&quot;:&quot;&quot;,&quot;timestamp&quot;:&quot;2020-10-04T23:39:24.316+00:00&quot;,&quot;status&quot;:500}">* def bucket = ............................................................ passed
+Given url 'http://localhost:8080' ......................................... passed
+And path 'v1/buckets' ..................................................... passed
+And request bucket ........................................................ passed
+When method post .......................................................... passed
+Then status 201 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: bucket.feature:16 - status code was: 500, expected: 201, response time: 412, url: http://localhost:8080/v1/buckets, response: {"path":"/v1/buckets","error":"Internal Server Error","message":"","timestamp":"2020-10-04T23:39:24.316+00:00","status":500}&#13;
+	at ✽.Then status 201 (bucket.feature:16)</failure>
+  </testcase>
+</testsuite>
